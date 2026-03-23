@@ -4,34 +4,36 @@
 To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
+A BiLSTM-based model that automatically identifies and classifies named entities in text by learning contextual relationships between words.
+<img width="371" height="651" alt="image" src="https://github.com/user-attachments/assets/63f30c41-9a8a-4b1a-9cc5-9894b001545c" />
 
 
 ## DESIGN STEPS
 ### STEP 1: 
 
-Load data, create word/tag mappings, and group sentences.
+Obtain a labeled text dataset where each word is tagged with its entity label (e.g., Person, Location, Organization, O).
+
 
 ### STEP 2: 
 
-Convert sentences to index sequences, pad to fixed length, and split into training/testing sets.
+Tokenize the sentences into words, convert them into numerical representations, and create vocabulary indices.
+
 
 ### STEP 3: 
 
-Define dataset and DataLoader for batching.
+Convert each word into dense vectors using embedding techniques such as Word Embedding from libraries like Word2Vec or GloVe.
 
 ### STEP 4: 
 
-Build a bidirectional LSTM model for sequence tagging.
+Construct an LSTM-based neural network consisting of an embedding layer, one or more LSTM layers, and a dense layer with a softmax activation for entity classification.
 
 ### STEP 5: 
 
-Train the model over multiple epochs, tracking loss.
+Train the LSTM using the labeled sequences to learn contextual relationships between words and their corresponding entity tags.
 
 ### STEP 6: 
 
-Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
-
-
+Apply the trained model to new sentences to identify named entities and evaluate performance using metrics such as precision, recall, and F1-score.
 
 ## PROGRAM
 
