@@ -37,9 +37,9 @@ Apply the trained model to new sentences to identify named entities and evaluate
 
 ## PROGRAM
 
-### Name:
+### Name: Hezron Belix
 
-### Register Number:
+### Register Number: 212223230078
 
 ```python
 import pandas as pd
