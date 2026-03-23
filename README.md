@@ -5,8 +5,8 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
 A BiLSTM-based model that automatically identifies and classifies named entities in text by learning contextual relationships between words.
-<img width="371" height="651" alt="image" src="https://github.com/user-attachments/assets/63f30c41-9a8a-4b1a-9cc5-9894b001545c" />
 
+<img width="371" height="651" alt="image" src="https://github.com/user-attachments/assets/63f30c41-9a8a-4b1a-9cc5-9894b001545c" />
 
 ## DESIGN STEPS
 ### STEP 1: 
